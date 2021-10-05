@@ -23,7 +23,7 @@ public class Pessoa {
             // Idade
                 System.out.printf("\nInforme a Idade: \n");
                 idade[i] = ler.nextInt();
-                ler.nextLine();
+                ler.nextLine(); // Limpar o buffer
            }     
    
        for (int j=0;j<=4; j++){
